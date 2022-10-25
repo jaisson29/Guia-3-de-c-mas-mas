@@ -141,7 +141,7 @@ void E3(){
 	cout<<"\n\tLa cantidad de numeros mayores a cero fueron: "<<mayores;
 }
 void E4(){
-	int VA[10],SU;
+	int VA[10],SU=0;
 	for(int i=0;i<10;i++){
 		cout<<"\n\tDigite el dato N."<<i+1<<": ";
 		cin>>VA[i];
